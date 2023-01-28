@@ -140,3 +140,22 @@ a{
     display: flex;
     gap: 5px;
 }
+
+@media (max-width: 1064px) {
+    main{
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        
+    }
+
+   #datoPersonales{
+        
+        font-size: medium;
+        width: 300px;
+   }
+   #dato{
+        text-align: center;
+        width: 300px;
+   }
+}
